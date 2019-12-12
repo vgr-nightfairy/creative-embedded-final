@@ -1,7 +1,6 @@
 #include <ESP32Servo.h>
 
 
-// servo pin
 const int servoPin = 18;
 Servo servo;
 Servo myServo;
@@ -15,15 +14,15 @@ void setup() {
 
 void loop() {
   Serial.print(x);
-  if (x == 1) // light the LED
+  if (x == 1) 
   {
-    # For snape, this means side eye
+    // For snape, this means side eye
     servo.write(0);
     x = 0;
     delay(15000);
   }
   else {
-    # For snape, this means straight eye
+    // For snape, this means straight eye
     servo.write(180);
     x = 1;
     delay(15000);
