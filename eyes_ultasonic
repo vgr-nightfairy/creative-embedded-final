@@ -24,7 +24,7 @@ void setup() {
   servoSnape.attach(servoPinS);
   servoFatLady.attach(servoPinFL);
   servoSnape.write(0);
-  servoFatLady.write(0);
+  servoFatLady.write(180);
 
   // ultrasonics
   pinMode(trigPinFL, OUTPUT);
@@ -59,24 +59,35 @@ void loop() {
   durationS = pulseIn(pingPinS, HIGH);
   distanceS = durationS / 74 / 2;
   Serial.printf("s: %i\n", distanceS);
-  delay(200);
 
-
-//
-
-  // servo
-  Serial.print(x);
-  if (x == 1) 
-  {
-    servoSnape.write(0);
+  if (distanceFL<=30){
     servoFatLady.write(0);
-    x = 0;
-    delay(15000);
+    servoSnape.write(0);
   }
-  else {
-    servoSnape.write(180);
+  else if (distanceS<=30){
     servoFatLady.write(180);
-    x = 1;
-    delay(15000);
+    servoSnape.write(180);
   }
+  else{
+    servoFatLady.write(180);
+    servoSnape.write(0);
+  }
+//
+  delay(1000);
+
+//  // servo
+//  Serial.print(x);
+//  if (x == 1) 
+//  {
+//    servoSnape.write(0);
+//    servoFatLady.write(0);
+//    x = 0;
+//    delay(15000);
+//  }
+//  else {
+//    servoSnape.write(180);
+//    servoFatLady.write(180);
+//    x = 1;
+//    delay(15000);
+//  }
 }
