@@ -17,11 +17,13 @@ void loop() {
   Serial.print(x);
   if (x == 1) // light the LED
   {
+    # For snape, this means side eye
     servo.write(0);
     x = 0;
     delay(15000);
   }
   else {
+    # For snape, this means straight eye
     servo.write(180);
     x = 1;
     delay(15000);
