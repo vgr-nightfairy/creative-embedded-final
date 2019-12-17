@@ -1,4 +1,4 @@
-# Final Project: Harry Potter Portraits
+# Final Project: Harry Pitter Patter Potter Portraits
 
 ![Portrai](/79308344_962915727435305_7591679000070586368_n.jpg)
 
