@@ -1,6 +1,6 @@
 # Final Project: Harry Potter Portraits
 
-!(79308344_962915727435305_7591679000070586368_n.jpg)
+!(/79308344_962915727435305_7591679000070586368_n.jpg)
 
 # Introduction
 Harry Pitter Patter Potter is an exhibit that seeks to emulate the notion of interactive portraits present in the Harry Potter Universe. The viewer can interact with Professor Snape and the Fat Lady based on her proximity to their portraits. Depending on whose portrait she stands in front of, the eyes of both respective figures will fixate in the general direction of the viewer. Additionally if she stands in front of the Fat Lady, the Fat Lady will  "speak" to the viewer by repeatedly opening and closing her mouth. However if the user stands in front of Snape, he will only continue to stare, which is emblematic of his taciturn personality as portrayed in the books. Overall the aim of this exhibit is to invoke surreal feelings in the viewer, as objects that should be lifeless and still are seemingly able to respond to their surroundings in realistic ways. 
