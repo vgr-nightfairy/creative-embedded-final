@@ -7,10 +7,17 @@ Harry Pitter Patter Potter is an exhibit that seeks to emulate the notion of int
 
 # Materials and Tools
 2 Posterboards
+
 3 Servos
+
 2 Rubber Bands
+
 1 ESP32
+
+1 Battery Pack
+
 2 Ultrasonic Sensors
+
 2 Plastic Boards from Project Box Configurations
 
 # Interactions
@@ -25,6 +32,7 @@ This project also included reused items from past modules. Specifically the moun
 
 # Videos
 https://youtu.be/k4rOI65Zw3A
+
 https://youtu.be/uaMJ_inPLbI
 
 
